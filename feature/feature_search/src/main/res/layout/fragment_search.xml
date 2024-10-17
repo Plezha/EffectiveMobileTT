@@ -75,6 +75,7 @@
                 android:orientation="horizontal" />
 
             <TextView
+                style="@style/Title2"
                 android:id="@+id/vacancies_title"
                 android:padding="8dp"
                 android:paddingBottom="4dp"
@@ -112,6 +113,7 @@
         app:cardBackgroundColor="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent" >
         <TextView
+            style="@style/ButtonText1"
             android:id="@+id/show_more_vacancies_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

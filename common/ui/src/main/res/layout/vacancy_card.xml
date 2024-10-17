@@ -24,9 +24,11 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
+            style="@style/Text1"
             android:id="@+id/vacancy_people_watching_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
             android:singleLine="true"
             android:ellipsize="end"
             android:textColor="@color/green"
@@ -36,9 +38,11 @@
             app:layout_constraintRight_toRightOf="parent"/>
 
         <TextView
+            style="@style/Title3"
             android:id="@+id/vacancy_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
             android:singleLine="true"
             android:ellipsize="end"
             android:text="Название вакансии"
@@ -46,6 +50,7 @@
             app:layout_constraintTop_toBottomOf="@id/vacancy_people_watching_text"/>
 
         <TextView
+            style="@style/Text1"
             android:id="@+id/vacancy_city"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -56,44 +61,38 @@
             app:layout_constraintTop_toBottomOf="@id/vacancy_title"/>
 
         <TextView
+            style="@style/Text1"
             android:id="@+id/vacancy_company"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
             android:singleLine="true"
             android:ellipsize="end"
             android:text="Компания"
+            app:drawableEndCompat="@drawable/ic_trusted_company"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@id/vacancy_city"/>
 
-        <ImageView
-            android:layout_width="16dp"
-            android:layout_height="16dp"
-            app:layout_constraintLeft_toRightOf="@id/vacancy_company"
-            app:layout_constraintTop_toTopOf="@id/vacancy_company"
-            android:src="@drawable/ic_trusted_company"/>
-
-        <ImageView
-            android:id="@+id/work_experience_icon"
-            android:layout_width="16dp"
-            android:layout_height="16dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/vacancy_company"
-            android:src="@drawable/ic_luggage" />
-
         <TextView
+            style="@style/Text1"
             android:id="@+id/work_experience"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
             android:singleLine="true"
             android:ellipsize="end"
             android:text="Опыт работы"
-            app:layout_constraintLeft_toRightOf="@id/work_experience_icon"
+            app:drawableStartCompat="@drawable/ic_luggage"
+            app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@id/vacancy_company" />
 
         <TextView
+            style="@style/Text1"
+            android:textColor="@color/grey3"
             android:id="@+id/date_published"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
             android:text="Опубликовано 30 февраля"
             app:layout_constraintTop_toBottomOf="@+id/work_experience"
             app:layout_constraintLeft_toLeftOf="parent" />
@@ -102,10 +101,12 @@
             android:id="@+id/respond_button"
             android:layout_width="match_parent"
             android:layout_height="32dp"
+            android:paddingTop="8dp"
             app:cardCornerRadius="16dp"
             app:cardBackgroundColor="@color/green"
             app:layout_constraintTop_toBottomOf="@id/date_published">
             <TextView
+                style="@style/ButtonText2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

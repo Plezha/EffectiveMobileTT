@@ -11,6 +11,7 @@
     tools:showIn="@layout/fragment_search" >
 
     <TextView
+        style="@style/Text1"
         android:id="@+id/vacancies_shown_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,6 +21,7 @@
         />
 
     <TextView
+        style="@style/Text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/blue"

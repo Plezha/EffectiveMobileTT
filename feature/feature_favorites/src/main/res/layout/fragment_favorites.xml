@@ -8,19 +8,20 @@
     tools:context="com.plezha.feature_favorites.ui.FavoritesFragment">
 
     <TextView
+        style="@style/Title2"
         android:id="@+id/favorites_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="12dp"
-        android:textSize="20sp"
+        android:paddingVertical="12dp"
         android:text="@string/favorites"/>
 
     <TextView
+        style="@style/Text1"
         android:id="@+id/favorites_subtitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="12dp"
-        android:textSize="20sp"
+        android:paddingVertical="12dp"
+        android:textColor="@color/grey3"
         android:text="2 вакансии"/>
 
     <androidx.recyclerview.widget.RecyclerView
