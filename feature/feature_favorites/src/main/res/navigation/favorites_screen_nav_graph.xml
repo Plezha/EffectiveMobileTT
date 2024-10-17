@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/favorites_screen_nav_graph"
+    app:startDestination="@+id/navigation_favorites">
+
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="com.plezha.feature_favorites.ui.FavoritesFragment"
+        tools:layout="@layout/fragment_favorites" >
+        <action
+            android:id="@+id/action_go_to_vacancy_fragment"
+            app:destination="@+id/navigation_vacancy_stub"
+            app:popUpTo="@+id/navigation_favorites" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_vacancy_stub"
+        android:name="com.plezha.ui.VacancyStubFragment"
+        tools:layout="@layout/fragment_vacancy_stub" />
+
+</navigation>

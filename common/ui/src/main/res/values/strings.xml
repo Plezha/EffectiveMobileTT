@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="respond">Откликнуться</string>
+    <string name="published_in_january">Опубликовано %1$d января</string>
+    <string name="published_in_february">Опубликовано %1$d февраля</string>
+    <string name="published_in_march">Опубликовано %1$d марта</string>
+    <string name="published_in_april">Опубликовано %1$d апреля</string>
+    <string name="published_in_may">Опубликовано %1$d мая</string>
+    <string name="published_in_june">Опубликовано %1$d июня</string>
+    <string name="published_in_july">Опубликовано %1$d июля</string>
+    <string name="published_in_august">Опубликовано %1$d августа</string>
+    <string name="published_in_september">Опубликовано %1$d сентября</string>
+    <string name="published_in_october">Опубликовано %1$d октября</string>
+    <string name="published_in_november">Опубликовано %1$d ноября</string>
+    <string name="published_in_december">Опубликовано %1$d декабря</string>
+    <string name="vacancy_stub_text">Здесь сокро будет замечательнейшее подробное описание вакансии!\n Но пока что всё только так :(</string>
+
+    <plurals name="people_watching">
+        <item quantity="zero">Сейчас просматривает %1$d человек</item>
+        <item quantity="one">Сейчас просматривает %1$d человек</item>
+        <item quantity="two">Сейчас просматривают %1$d человека</item>
+        <item quantity="few">Сейчас просматривают %1$d человека</item>
+        <item quantity="many">Сейчас просматривают %1$d человек</item>
+        <item quantity="other">Сейчас просматривают %1$d человек</item>
+    </plurals>
+    <plurals name="vacancies">
+        <item quantity="zero">%1$d вакансий</item>
+        <item quantity="one">%1$d вакансия</item>
+        <item quantity="two">%1$d вакансии</item>
+        <item quantity="few">%1$d вакансии</item>
+        <item quantity="many">%1$d вакансий</item>
+        <item quantity="other">%1$d вакансий</item>
+    </plurals>
+</resources>

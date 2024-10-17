@@ -1,0 +1,18 @@
+<resources>
+    <style name="Theme.EffectiveMobileTT" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorSurface">@color/grey0</item>
+        <item name="android:colorBackground">@color/grey0</item>
+
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/dark_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/green</item>
+        <item name="colorSecondaryVariant">@color/dark_green</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:statusBarColor">?attr/backgroundColor</item>
+
+    </style>
+
+</resources>

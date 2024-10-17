@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@+id/search_screen_nav_graph">
+
+    <include app:graph="@navigation/search_screen_nav_graph"/>
+    <include app:graph="@navigation/favorites_screen_nav_graph"/>
+
+    <fragment
+        android:id="@+id/navigation_responses"
+        android:name="com.plezha.feature_wip_fragment.ui.WIPFragment"
+        tools:layout="@layout/fragment_wip" />
+
+    <fragment
+        android:id="@+id/navigation_messages"
+        android:name="com.plezha.feature_wip_fragment.ui.WIPFragment"
+        tools:layout="@layout/fragment_wip" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.plezha.feature_wip_fragment.ui.WIPFragment"
+        tools:layout="@layout/fragment_wip" />
+</navigation>
