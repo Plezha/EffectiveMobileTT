@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
 
         val badge = bottomNavView.getOrCreateBadge(R.id.favorites_screen_nav_graph)
         badge.backgroundColor = applicationContext.getColor(com.plezha.ui.R.color.red)
+        badge.badgeTextColor = applicationContext.getColor(com.plezha.ui.R.color.white)
 
         lifecycleScope.launch {
             mainActivityViewModel.favoritesAmount.collect {
